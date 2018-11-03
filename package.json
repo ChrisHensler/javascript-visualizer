@@ -1,0 +1,19 @@
+{
+  "name": "javascript-cfg-graph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "acorn": "^6.0.2",
+    "acorn-walk": "^6.1.0",
+    "esprima": "^4.0.1",
+    "styx": "^0.0.8",
+    "vis": "^4.21.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ChrisHensler",
+  "license": "MIT"
+}
