@@ -1,0 +1,343 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Program"
+    },
+    {
+      "id": 1,
+      "label": "VariableDeclaration"
+    },
+    {
+      "id": 2,
+      "label": "VariableDeclarator"
+    },
+    {
+      "id": 3,
+      "label": "FunctionExpression"
+    },
+    {
+      "id": 4,
+      "label": "BlockStatement"
+    },
+    {
+      "id": 5,
+      "label": "ExpressionStatement"
+    },
+    {
+      "id": 6,
+      "label": "AssignmentExpression"
+    },
+    {
+      "id": 7,
+      "label": "Identifier"
+    },
+    {
+      "id": 8,
+      "label": "BinaryExpression"
+    },
+    {
+      "id": 9,
+      "label": "Identifier"
+    },
+    {
+      "id": 10,
+      "label": "Literal"
+    },
+    {
+      "id": 11,
+      "label": "Identifier"
+    },
+    {
+      "id": 12,
+      "label": "ExpressionStatement"
+    },
+    {
+      "id": 13,
+      "label": "CallExpression"
+    },
+    {
+      "id": 14,
+      "label": "Identifier"
+    },
+    {
+      "id": 15,
+      "label": "ExpressionStatement"
+    },
+    {
+      "id": 16,
+      "label": "CallExpression"
+    },
+    {
+      "id": 17,
+      "label": "BinaryExpression"
+    },
+    {
+      "id": 18,
+      "label": "Literal"
+    },
+    {
+      "id": 19,
+      "label": "Literal"
+    },
+    {
+      "id": 20,
+      "label": "MemberExpression"
+    },
+    {
+      "id": 21,
+      "label": "Identifier"
+    },
+    {
+      "id": 22,
+      "label": "Identifier"
+    },
+    {
+      "id": 23,
+      "label": "IfStatement"
+    },
+    {
+      "id": 24,
+      "label": "BlockStatement"
+    },
+    {
+      "id": 25,
+      "label": "ExpressionStatement"
+    },
+    {
+      "id": 26,
+      "label": "BinaryExpression"
+    },
+    {
+      "id": 27,
+      "label": "Literal"
+    },
+    {
+      "id": 28,
+      "label": "MemberExpression"
+    },
+    {
+      "id": 29,
+      "label": "Literal"
+    },
+    {
+      "id": 30,
+      "label": "SequenceExpression"
+    },
+    {
+      "id": 31,
+      "label": "Literal"
+    },
+    {
+      "id": 32,
+      "label": "Literal"
+    },
+    {
+      "id": 33,
+      "label": "Literal"
+    },
+    {
+      "id": 34,
+      "label": "Literal"
+    },
+    {
+      "id": 35,
+      "label": "Literal"
+    },
+    {
+      "id": 36,
+      "label": "Literal"
+    },
+    {
+      "id": 37,
+      "label": "Identifier"
+    }
+  ],
+  "edges": [
+    {
+      "from": 6,
+      "to": 7,
+      "arrows": "to"
+    },
+    {
+      "from": 8,
+      "to": 9,
+      "arrows": "to"
+    },
+    {
+      "from": 8,
+      "to": 10,
+      "arrows": "to"
+    },
+    {
+      "from": 6,
+      "to": 8,
+      "arrows": "to"
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "arrows": "to"
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "arrows": "to"
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "arrows": "to"
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "arrows": "to"
+    },
+    {
+      "from": 2,
+      "to": 11,
+      "arrows": "to"
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "arrows": "to"
+    },
+    {
+      "from": 0,
+      "to": 1,
+      "arrows": "to"
+    },
+    {
+      "from": 13,
+      "to": 14,
+      "arrows": "to"
+    },
+    {
+      "from": 12,
+      "to": 13,
+      "arrows": "to"
+    },
+    {
+      "from": 0,
+      "to": 12,
+      "arrows": "to"
+    },
+    {
+      "from": 17,
+      "to": 18,
+      "arrows": "to"
+    },
+    {
+      "from": 17,
+      "to": 19,
+      "arrows": "to"
+    },
+    {
+      "from": 16,
+      "to": 17,
+      "arrows": "to"
+    },
+    {
+      "from": 20,
+      "to": 21,
+      "arrows": "to"
+    },
+    {
+      "from": 20,
+      "to": 22,
+      "arrows": "to"
+    },
+    {
+      "from": 16,
+      "to": 20,
+      "arrows": "to"
+    },
+    {
+      "from": 15,
+      "to": 16,
+      "arrows": "to"
+    },
+    {
+      "from": 0,
+      "to": 15,
+      "arrows": "to"
+    },
+    {
+      "from": 26,
+      "to": 27,
+      "arrows": "to"
+    },
+    {
+      "from": 28,
+      "to": 29,
+      "arrows": "to"
+    },
+    {
+      "from": 30,
+      "to": 31,
+      "arrows": "to"
+    },
+    {
+      "from": 30,
+      "to": 32,
+      "arrows": "to"
+    },
+    {
+      "from": 30,
+      "to": 33,
+      "arrows": "to"
+    },
+    {
+      "from": 30,
+      "to": 34,
+      "arrows": "to"
+    },
+    {
+      "from": 30,
+      "to": 35,
+      "arrows": "to"
+    },
+    {
+      "from": 30,
+      "to": 36,
+      "arrows": "to"
+    },
+    {
+      "from": 28,
+      "to": 30,
+      "arrows": "to"
+    },
+    {
+      "from": 26,
+      "to": 28,
+      "arrows": "to"
+    },
+    {
+      "from": 25,
+      "to": 26,
+      "arrows": "to"
+    },
+    {
+      "from": 24,
+      "to": 25,
+      "arrows": "to"
+    },
+    {
+      "from": 23,
+      "to": 24,
+      "arrows": "to"
+    },
+    {
+      "from": 23,
+      "to": 37,
+      "arrows": "to"
+    },
+    {
+      "from": 0,
+      "to": 23,
+      "arrows": "to"
+    }
+  ]
+}

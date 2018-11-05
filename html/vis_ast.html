@@ -19,9 +19,9 @@
 <div id="mynetwork"></div>
 
 <script type="text/javascript">
-    $.getJSON("input.json", function(input) {
+    $.getJSON("ast.json", function(input) {
         
-   console.log(input)
+    console.log(input)
     // create an array with nodes
     var nodes = new vis.DataSet(input.nodes);
 
@@ -41,7 +41,7 @@
     // initialize your network!
     var network = new vis.Network(container, data, options);
 
-   
+
    });
 </script>
 </body>

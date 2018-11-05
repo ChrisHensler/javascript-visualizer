@@ -11,11 +11,7 @@ function addChild(acorn_child, parent) {
 
 function parseNode(acorn_node) {
     console.log("\nparsing...")
-    var new_node = graph.createNode(JSON.stringify({
-        type:acorn_node.type,
-        start:acorn_node.start,
-        end:acorn_node.end,
-    }))
+    var new_node = graph.createNode(acorn_node.type)
 
     possible_next = [
         "arguments","argument","alternate",
@@ -53,11 +49,6 @@ function parseNode(acorn_node) {
     })
 
     possible_next_plural = [
-        
-        
-        
-        
-        
         
         
     ]

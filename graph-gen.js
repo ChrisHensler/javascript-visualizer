@@ -5,6 +5,16 @@ var NODE_LOOKUP={}
 
 var EDGES = []
 
+
+//todo: make a constructor
+exports.clean=function()  {
+    NODE_ID_COUNTER = 0
+
+    NODE_LOOKUP={}
+
+    EDGES = []
+}
+
 exports.createGraph= function(root=null) {
     return {
         root: exports.createNode(root)
@@ -31,7 +41,7 @@ exports.getNodeByID = function(id)  {
 exports.addEdge = function(parent_id, child_id)  {
     console.log(`adding edge ${parent_id} -> ${child_id}`)
 
-    EDGES.push({"from": parent_id,"to": child_id})
+    EDGES.push({"from": parent_id,"to": child_id, "arrows":"to"})
 }
 
 exports.printState = function()  {
