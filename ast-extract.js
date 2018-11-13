@@ -16,9 +16,11 @@ function parseNode(acorn_node) {
     possible_next = [
         "arguments","argument","alternate",
         "body",
-        "callee",
-        "declaration","declarations",
+        "callee","consequent",
+        "declaration","declarations","defaults",
         "expression","element","exported","expressions","elements",
+        "generator",
+        "head","handler",
         "init","imported","id",
         "key",
         "left","local",
@@ -26,7 +28,7 @@ function parseNode(acorn_node) {
         "object",
         "param","property","properties",
         "quasi","quasis",
-        "right",
+        "right","rest",
         "superClass","source","specifiers",
         "tag","test"
     ];

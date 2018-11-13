@@ -2,191 +2,518 @@
   "nodes": [
     {
       "id": 0,
-      "label": "Program"
+      "label": "Program",
+      "color": "#4d94ff",
+      "num_edges": 4
     },
     {
       "id": 1,
-      "label": "VariableDeclaration"
+      "label": "VariableDeclaration",
+      "color": "#D2E5FF",
+      "num_edges": 1
     },
     {
       "id": 2,
-      "label": "VariableDeclarator"
+      "label": "VariableDeclarator",
+      "color": "#D2E5FF",
+      "num_edges": 2
     },
     {
       "id": 3,
-      "label": "FunctionExpression"
+      "label": "ArrayExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
     },
     {
       "id": 4,
-      "label": "BlockStatement"
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
     },
     {
       "id": 5,
-      "label": "ExpressionStatement"
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
     },
     {
       "id": 6,
-      "label": "AssignmentExpression"
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
     },
     {
       "id": 7,
-      "label": "Identifier"
+      "label": "VariableDeclaration",
+      "color": "#D2E5FF",
+      "num_edges": 1
     },
     {
       "id": 8,
-      "label": "BinaryExpression"
+      "label": "VariableDeclarator",
+      "color": "#D2E5FF",
+      "num_edges": 2
     },
     {
       "id": 9,
-      "label": "Identifier"
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
     },
     {
       "id": 10,
-      "label": "Literal"
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
     },
     {
       "id": 11,
-      "label": "Identifier"
+      "label": "WhileStatement",
+      "color": "#ff9900",
+      "num_edges": 2
     },
     {
       "id": 12,
-      "label": "ExpressionStatement"
+      "label": "BlockStatement",
+      "color": "#ff9900",
+      "num_edges": 1
     },
     {
       "id": 13,
-      "label": "CallExpression"
+      "label": "ExpressionStatement",
+      "color": "#ff66cc",
+      "num_edges": 1
     },
     {
       "id": 14,
-      "label": "Identifier"
+      "label": "CallExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
     },
     {
       "id": 15,
-      "label": "ExpressionStatement"
+      "label": "CallExpression",
+      "color": "#ff66cc",
+      "num_edges": 1
     },
     {
       "id": 16,
-      "label": "CallExpression"
+      "label": "MemberExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
     },
     {
       "id": 17,
-      "label": "BinaryExpression"
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
     },
     {
       "id": 18,
-      "label": "Literal"
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
     },
     {
       "id": 19,
-      "label": "Literal"
+      "label": "MemberExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
     },
     {
       "id": 20,
-      "label": "MemberExpression"
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
     },
     {
       "id": 21,
-      "label": "Identifier"
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
     },
     {
       "id": 22,
-      "label": "Identifier"
+      "label": "UpdateExpression",
+      "color": "#ff66cc",
+      "num_edges": 1
     },
     {
       "id": 23,
-      "label": "IfStatement"
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
     },
     {
       "id": 24,
-      "label": "BlockStatement"
+      "label": "ForStatement",
+      "color": "#ff9900",
+      "num_edges": 3
     },
     {
       "id": 25,
-      "label": "ExpressionStatement"
+      "label": "BlockStatement",
+      "color": "#ff9900",
+      "num_edges": 6
     },
     {
       "id": 26,
-      "label": "BinaryExpression"
+      "label": "VariableDeclaration",
+      "color": "#D2E5FF",
+      "num_edges": 1
     },
     {
       "id": 27,
-      "label": "Literal"
+      "label": "VariableDeclarator",
+      "color": "#D2E5FF",
+      "num_edges": 2
     },
     {
       "id": 28,
-      "label": "MemberExpression"
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
     },
     {
       "id": 29,
-      "label": "Literal"
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
     },
     {
       "id": 30,
-      "label": "SequenceExpression"
+      "label": "IfStatement",
+      "color": "#ff9900",
+      "num_edges": 2
     },
     {
       "id": 31,
-      "label": "Literal"
+      "label": "BlockStatement",
+      "color": "#ff9900",
+      "num_edges": 2
     },
     {
       "id": 32,
-      "label": "Literal"
+      "label": "ExpressionStatement",
+      "color": "#ff66cc",
+      "num_edges": 1
     },
     {
       "id": 33,
-      "label": "Literal"
+      "label": "AssignmentExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
     },
     {
       "id": 34,
-      "label": "Literal"
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
     },
     {
       "id": 35,
-      "label": "Literal"
+      "label": "BinaryExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
     },
     {
       "id": 36,
-      "label": "Literal"
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
     },
     {
       "id": 37,
-      "label": "Identifier"
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
+    },
+    {
+      "id": 38,
+      "label": "ExpressionStatement",
+      "color": "#ff66cc",
+      "num_edges": 1
+    },
+    {
+      "id": 39,
+      "label": "AssignmentExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 40,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 41,
+      "label": "MemberExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 42,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 43,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 44,
+      "label": "BinaryExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 45,
+      "label": "BinaryExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 46,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 47,
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
+    },
+    {
+      "id": 48,
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
+    },
+    {
+      "id": 49,
+      "label": "IfStatement",
+      "color": "#ff9900",
+      "num_edges": 2
+    },
+    {
+      "id": 50,
+      "label": "BlockStatement",
+      "color": "#ff9900",
+      "num_edges": 1
+    },
+    {
+      "id": 51,
+      "label": "ExpressionStatement",
+      "color": "#ff66cc",
+      "num_edges": 1
+    },
+    {
+      "id": 52,
+      "label": "AssignmentExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 53,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 54,
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
+    },
+    {
+      "id": 55,
+      "label": "BinaryExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 56,
+      "label": "BinaryExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 57,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 58,
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
+    },
+    {
+      "id": 59,
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
+    },
+    {
+      "id": 60,
+      "label": "ExpressionStatement",
+      "color": "#ff66cc",
+      "num_edges": 1
+    },
+    {
+      "id": 61,
+      "label": "AssignmentExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 62,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 63,
+      "label": "BinaryExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 64,
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
+    },
+    {
+      "id": 65,
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
+    },
+    {
+      "id": 66,
+      "label": "ExpressionStatement",
+      "color": "#ff66cc",
+      "num_edges": 1
+    },
+    {
+      "id": 67,
+      "label": "AssignmentExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 68,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 69,
+      "label": "MemberExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 70,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 71,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 72,
+      "label": "ExpressionStatement",
+      "color": "#ff66cc",
+      "num_edges": 1
+    },
+    {
+      "id": 73,
+      "label": "CallExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 74,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 75,
+      "label": "MemberExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 76,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 77,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 78,
+      "label": "AssignmentExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 79,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 80,
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
+    },
+    {
+      "id": 81,
+      "label": "BinaryExpression",
+      "color": "#ff66cc",
+      "num_edges": 2
+    },
+    {
+      "id": 82,
+      "label": "Identifier",
+      "color": "#5cd65c",
+      "num_edges": 0
+    },
+    {
+      "id": 83,
+      "label": "Literal",
+      "color": "#ff4343",
+      "num_edges": 0
     }
   ],
   "edges": [
     {
-      "from": 6,
-      "to": 7,
-      "arrows": "to"
-    },
-    {
-      "from": 8,
-      "to": 9,
-      "arrows": "to"
-    },
-    {
-      "from": 8,
-      "to": 10,
-      "arrows": "to"
-    },
-    {
-      "from": 6,
-      "to": 8,
-      "arrows": "to"
-    },
-    {
-      "from": 5,
-      "to": 6,
-      "arrows": "to"
-    },
-    {
-      "from": 4,
-      "to": 5,
+      "from": 3,
+      "to": 4,
       "arrows": "to"
     },
     {
       "from": 3,
-      "to": 4,
+      "to": 5,
       "arrows": "to"
     },
     {
@@ -196,7 +523,7 @@
     },
     {
       "from": 2,
-      "to": 11,
+      "to": 6,
       "arrows": "to"
     },
     {
@@ -210,6 +537,61 @@
       "arrows": "to"
     },
     {
+      "from": 8,
+      "to": 9,
+      "arrows": "to"
+    },
+    {
+      "from": 8,
+      "to": 10,
+      "arrows": "to"
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "arrows": "to"
+    },
+    {
+      "from": 0,
+      "to": 7,
+      "arrows": "to"
+    },
+    {
+      "from": 16,
+      "to": 17,
+      "arrows": "to"
+    },
+    {
+      "from": 16,
+      "to": 18,
+      "arrows": "to"
+    },
+    {
+      "from": 15,
+      "to": 16,
+      "arrows": "to"
+    },
+    {
+      "from": 14,
+      "to": 15,
+      "arrows": "to"
+    },
+    {
+      "from": 19,
+      "to": 20,
+      "arrows": "to"
+    },
+    {
+      "from": 19,
+      "to": 21,
+      "arrows": "to"
+    },
+    {
+      "from": 14,
+      "to": 19,
+      "arrows": "to"
+    },
+    {
       "from": 13,
       "to": 14,
       "arrows": "to"
@@ -220,48 +602,33 @@
       "arrows": "to"
     },
     {
-      "from": 0,
+      "from": 11,
       "to": 12,
       "arrows": "to"
     },
     {
-      "from": 17,
-      "to": 18,
+      "from": 22,
+      "to": 23,
       "arrows": "to"
     },
     {
-      "from": 17,
-      "to": 19,
-      "arrows": "to"
-    },
-    {
-      "from": 16,
-      "to": 17,
-      "arrows": "to"
-    },
-    {
-      "from": 20,
-      "to": 21,
-      "arrows": "to"
-    },
-    {
-      "from": 20,
+      "from": 11,
       "to": 22,
       "arrows": "to"
     },
     {
-      "from": 16,
-      "to": 20,
-      "arrows": "to"
-    },
-    {
-      "from": 15,
-      "to": 16,
-      "arrows": "to"
-    },
-    {
       "from": 0,
-      "to": 15,
+      "to": 11,
+      "arrows": "to"
+    },
+    {
+      "from": 27,
+      "to": 28,
+      "arrows": "to"
+    },
+    {
+      "from": 27,
+      "to": 29,
       "arrows": "to"
     },
     {
@@ -270,8 +637,68 @@
       "arrows": "to"
     },
     {
-      "from": 28,
-      "to": 29,
+      "from": 25,
+      "to": 26,
+      "arrows": "to"
+    },
+    {
+      "from": 33,
+      "to": 34,
+      "arrows": "to"
+    },
+    {
+      "from": 35,
+      "to": 36,
+      "arrows": "to"
+    },
+    {
+      "from": 35,
+      "to": 37,
+      "arrows": "to"
+    },
+    {
+      "from": 33,
+      "to": 35,
+      "arrows": "to"
+    },
+    {
+      "from": 32,
+      "to": 33,
+      "arrows": "to"
+    },
+    {
+      "from": 31,
+      "to": 32,
+      "arrows": "to"
+    },
+    {
+      "from": 39,
+      "to": 40,
+      "arrows": "to"
+    },
+    {
+      "from": 41,
+      "to": 42,
+      "arrows": "to"
+    },
+    {
+      "from": 41,
+      "to": 43,
+      "arrows": "to"
+    },
+    {
+      "from": 39,
+      "to": 41,
+      "arrows": "to"
+    },
+    {
+      "from": 38,
+      "to": 39,
+      "arrows": "to"
+    },
+    {
+      "from": 31,
+      "to": 38,
       "arrows": "to"
     },
     {
@@ -280,43 +707,178 @@
       "arrows": "to"
     },
     {
-      "from": 30,
-      "to": 32,
+      "from": 45,
+      "to": 46,
+      "arrows": "to"
+    },
+    {
+      "from": 45,
+      "to": 47,
+      "arrows": "to"
+    },
+    {
+      "from": 44,
+      "to": 45,
+      "arrows": "to"
+    },
+    {
+      "from": 44,
+      "to": 48,
       "arrows": "to"
     },
     {
       "from": 30,
-      "to": 33,
-      "arrows": "to"
-    },
-    {
-      "from": 30,
-      "to": 34,
-      "arrows": "to"
-    },
-    {
-      "from": 30,
-      "to": 35,
-      "arrows": "to"
-    },
-    {
-      "from": 30,
-      "to": 36,
-      "arrows": "to"
-    },
-    {
-      "from": 28,
-      "to": 30,
-      "arrows": "to"
-    },
-    {
-      "from": 26,
-      "to": 28,
+      "to": 44,
       "arrows": "to"
     },
     {
       "from": 25,
-      "to": 26,
+      "to": 30,
+      "arrows": "to"
+    },
+    {
+      "from": 52,
+      "to": 53,
+      "arrows": "to"
+    },
+    {
+      "from": 52,
+      "to": 54,
+      "arrows": "to"
+    },
+    {
+      "from": 51,
+      "to": 52,
+      "arrows": "to"
+    },
+    {
+      "from": 50,
+      "to": 51,
+      "arrows": "to"
+    },
+    {
+      "from": 49,
+      "to": 50,
+      "arrows": "to"
+    },
+    {
+      "from": 56,
+      "to": 57,
+      "arrows": "to"
+    },
+    {
+      "from": 56,
+      "to": 58,
+      "arrows": "to"
+    },
+    {
+      "from": 55,
+      "to": 56,
+      "arrows": "to"
+    },
+    {
+      "from": 55,
+      "to": 59,
+      "arrows": "to"
+    },
+    {
+      "from": 49,
+      "to": 55,
+      "arrows": "to"
+    },
+    {
+      "from": 25,
+      "to": 49,
+      "arrows": "to"
+    },
+    {
+      "from": 61,
+      "to": 62,
+      "arrows": "to"
+    },
+    {
+      "from": 63,
+      "to": 64,
+      "arrows": "to"
+    },
+    {
+      "from": 63,
+      "to": 65,
+      "arrows": "to"
+    },
+    {
+      "from": 61,
+      "to": 63,
+      "arrows": "to"
+    },
+    {
+      "from": 60,
+      "to": 61,
+      "arrows": "to"
+    },
+    {
+      "from": 25,
+      "to": 60,
+      "arrows": "to"
+    },
+    {
+      "from": 67,
+      "to": 68,
+      "arrows": "to"
+    },
+    {
+      "from": 69,
+      "to": 70,
+      "arrows": "to"
+    },
+    {
+      "from": 69,
+      "to": 71,
+      "arrows": "to"
+    },
+    {
+      "from": 67,
+      "to": 69,
+      "arrows": "to"
+    },
+    {
+      "from": 66,
+      "to": 67,
+      "arrows": "to"
+    },
+    {
+      "from": 25,
+      "to": 66,
+      "arrows": "to"
+    },
+    {
+      "from": 73,
+      "to": 74,
+      "arrows": "to"
+    },
+    {
+      "from": 75,
+      "to": 76,
+      "arrows": "to"
+    },
+    {
+      "from": 75,
+      "to": 77,
+      "arrows": "to"
+    },
+    {
+      "from": 73,
+      "to": 75,
+      "arrows": "to"
+    },
+    {
+      "from": 72,
+      "to": 73,
+      "arrows": "to"
+    },
+    {
+      "from": 25,
+      "to": 72,
       "arrows": "to"
     },
     {
@@ -325,18 +887,38 @@
       "arrows": "to"
     },
     {
-      "from": 23,
-      "to": 24,
+      "from": 78,
+      "to": 79,
       "arrows": "to"
     },
     {
-      "from": 23,
-      "to": 37,
+      "from": 78,
+      "to": 80,
+      "arrows": "to"
+    },
+    {
+      "from": 24,
+      "to": 78,
+      "arrows": "to"
+    },
+    {
+      "from": 81,
+      "to": 82,
+      "arrows": "to"
+    },
+    {
+      "from": 81,
+      "to": 83,
+      "arrows": "to"
+    },
+    {
+      "from": 24,
+      "to": 81,
       "arrows": "to"
     },
     {
       "from": 0,
-      "to": 23,
+      "to": 24,
       "arrows": "to"
     }
   ]

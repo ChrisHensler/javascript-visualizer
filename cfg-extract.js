@@ -9,17 +9,20 @@ exports.parse = function(text) {
     console.log("parsing cfg")
     parsed = acorn.parse(text)
 
-    cfg = esgraph(parsed)[2] //2 is the array of nodes
+    cfg = esgraph(parsed) 
 
     //assign ids
     id_count = 0
-    cfg.forEach(function(node)  {
+
+    //2 is the array of nodes
+    cfg[2].forEach(function(node)  { 
         node.id = id_count++
-        graph.createNode(JSON.stringify(node.id))
+        graph.createNode(node.id)
+        console.log(node.next)
     })
 
     //draw edges
-    cfg.forEach(function(node)  {
+    cfg[2].forEach(function(node)  {
         node.next.forEach(function(next) {
             graph.addEdge(node.id, next.id)
         })
