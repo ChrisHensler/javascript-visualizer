@@ -5,12 +5,12 @@ var NODE_LOOKUP={}
 
 var EDGES = []
 var COLORS = {
-    "ROOT":"#4d94ff",
-    "STATEMENT":"#ff9900",
-    "EXPRESSION":"#ff66cc",
-    "IDENTIFIER":"#5cd65c",
-    "LITERAL":"#ff4343",
-    "OTHER":"#D2E5FF"
+    "ROOT":"#ffbb29", 
+    "STATEMENT":"#98ff1b",
+    "EXPRESSION":"#1bff95",
+    "IDENTIFIER":"#ff5750",
+    "LITERAL":"#ff4561",
+    "OTHER":"#CCCCCC"
 }
 
 var OPTIONS = {
@@ -54,7 +54,7 @@ exports.getNodeByID = function(id)  {
 exports.addEdge = function(parent_id, child_id)  {
     console.log(`adding edge ${parent_id} -> ${child_id}`)
 
-    NODE_LOOKUP[child_id].color=getColor(NODE_LOOKUP[child_id].label);
+    NODE_LOOKUP[child_id].color=getBgColor(NODE_LOOKUP[child_id].label);
     NODE_LOOKUP[parent_id].num_edges+=1;
 
     edge = {"from": parent_id,"to": child_id, "arrows":"to"}
@@ -91,7 +91,7 @@ exports.loadGraph = function(file_location) {
 }
 
 //note: AST only right now. Also should move this to a different file at some point
-function getColor(type) {
+function getBgColor(type) {
     patternToColor = {
         "Expression": COLORS.EXPRESSION,
         "Statement": COLORS.STATEMENT,
