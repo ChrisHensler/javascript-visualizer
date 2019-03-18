@@ -1,6 +1,6 @@
-#Instructions
+# Instructions
 
-##Installation
+## Installation
 Install the folllowing node modules:
 ```
 npm install acorn
